@@ -1,0 +1,21 @@
+
+# The following four values are all used in the linear function:
+#  Damage = B - M * Distance
+#
+#  B is the base damage value
+#  M is the falloff multiplier
+#  Distance is the distance from the explosion. This is basically never less than 0.4
+
+baseAIDamage : 35
+basePlayerDamage : 10
+baseSelfDamage : 9
+falloffMultiplier : 3
+
+# The next value is used in the function: X / Distance
+# The result is added to the initial explosive velocity
+baseSelfLaunchPower : 0.1
+
+explosionSize : 4
+configFire : false
+configBlockDamage : false
+configFriendlyFire : true

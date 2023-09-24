@@ -1,0 +1,4 @@
+name: ExplosiveBow
+version: '${project.version}'
+main: me.zephyrdreamcrafter.explosivebow.ExplosiveBow
+api-version: '1.20'
